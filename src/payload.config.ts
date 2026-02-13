@@ -4,6 +4,13 @@ import path from 'path'
 import { buildConfig } from 'payload'
 import { fileURLToPath } from 'url'
 import sharp from 'sharp'
+import { Pages } from './collections/pages'
+import { Faqs } from './collections/faq'
+import { Posts } from './collections/blogposts'
+
+
+
+
 
 import { Users } from './collections/Users'
 import { Media } from './collections/Media'
@@ -17,8 +24,9 @@ export default buildConfig({
     importMap: {
       baseDir: path.resolve(dirname),
     },
+
   },
-  collections: [Users, Media],
+  collections: [Users, Media, Pages, Faqs, Posts],
   editor: lexicalEditor(),
   secret: process.env.PAYLOAD_SECRET || '',
   typescript: {

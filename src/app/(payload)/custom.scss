@@ -1,0 +1,146 @@
+
+
+.dashboard {
+  /* background-color: #0b0b0f;
+
+   background: radial-gradient(
+    circle at 20% 20%,
+    #1A1F2B 0%,
+    #0B0F14 60%
+  ); */
+  background: radial-gradient(
+    circle at 20% 20%,
+    #1F1824 0%,
+    #120E16 60%
+  );
+}
+
+.template-default__wrap {
+     background: radial-gradient(
+    circle at 20% 20%,
+    #1F1824 0%,
+    #120E16 60%
+  );
+};
+
+
+
+
+
+body {
+  background:
+    radial-gradient(circle at 20% 20%, #1A1730 0%, #0E0C18 60%),
+    linear-gradient(to bottom, rgba(255,255,255,0.03), transparent 40%);
+}
+
+
+.nav__scroll {
+    background: radial-gradient(
+    circle at 20% 20%,
+    #1A1730 0%,
+    #0E0C18 60%
+  ),
+  radial-gradient(
+    circle at 80% 10%,
+    rgba(0, 255, 200, 0.05),
+    transparent 40%
+  );
+}
+
+#card-users {
+    background: linear-gradient(
+     145deg,
+    #184144 0%,
+    #123033 60%,
+    #0A1E20 100%
+  );
+  border: 0.5px solid #0B0F14;
+}
+
+#card-users:hover {
+     background: linear-gradient(
+    145deg,
+    #1F5154 0%,
+    #174044 60%,
+    #0E2A2D 100%
+  );
+}
+
+#card-media {
+    background: linear-gradient(
+     145deg,
+    #184144 0%,
+    #123033 60%,
+    #0A1E20 100%
+  );
+  border: 0.5px solid #0B0F14;
+
+}
+
+#card-media:hover {
+     background: linear-gradient(
+    145deg,
+    #1F5154 0%,
+    #174044 60%,
+    #0E2A2D 100%
+  );
+}
+
+#card-pages {
+background: linear-gradient(
+     145deg,
+    #184144 0%,
+    #123033 60%,
+    #0A1E20 100%
+  );
+  border: 0.5px solid #0B0F14;
+}
+
+#card-pages:hover {
+background: linear-gradient(
+    145deg,
+    #1F5154 0%,
+    #174044 60%,
+    #0E2A2D 100%
+  );
+  }
+
+#card-faqs {
+background: linear-gradient(
+     145deg,
+    #184144 0%,
+    #123033 60%,
+    #0A1E20 100%
+  );
+  border: 0.5px solid #0B0F14;
+}
+
+#card-faqs:hover {
+background: linear-gradient(
+    145deg,
+    #1F5154 0%,
+    #174044 60%,
+    #0E2A2D 100%
+  );
+  }
+
+#card-posts {
+background: linear-gradient(
+     145deg,
+    #184144 0%,
+    #123033 60%,
+    #0A1E20 100%
+  );
+  border: 0.5px solid #0B0F14;
+}
+
+#card-posts:hover {
+background: linear-gradient(
+    145deg,
+    #1F5154 0%,
+    #174044 60%,
+    #0E2A2D 100%
+  );
+}
+
+

@@ -10,9 +10,16 @@ html {
   font-size: 18px;
   line-height: 32px;
 
-  background: rgb(0, 0, 0);
+    background: radial-gradient(
+    circle at 20% 20%,
+    #1A1F2B 0%,
+    #0B0F14 60%
+  );
+
   -webkit-font-smoothing: antialiased;
 }
+
+
 
 html,
 body,
@@ -26,7 +33,7 @@ body {
   line-height: 32px;
 
   margin: 0;
-  color: rgb(1000, 1000, 1000);
+  color: #EAEAEA;
 
   @media (max-width: 1024px) {
     font-size: 15px;
