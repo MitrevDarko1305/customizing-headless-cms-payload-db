@@ -7,6 +7,7 @@ import sharp from 'sharp'
 import { Pages } from './collections/pages'
 import { Faqs } from './collections/faq'
 import { Posts } from './collections/blogposts'
+import { services } from './collections/services'
 
 
 
@@ -26,7 +27,7 @@ export default buildConfig({
     },
 
   },
-  collections: [Users, Media, Pages, Faqs, Posts],
+  collections: [Users, Media, Pages, Faqs, Posts, services],
   editor: lexicalEditor(),
   secret: process.env.PAYLOAD_SECRET || '',
   typescript: {

@@ -143,4 +143,23 @@ background: linear-gradient(
   );
 }
 
+#card-services {
+    background: linear-gradient(
+     145deg,
+    #184144 0%,
+    #123033 60%,
+    #0A1E20 100%
+  );
+  border: 0.5px solid #0B0F14;
+}
+
+#card-services:hover {
+     background: linear-gradient(
+    145deg,
+    #1F5154 0%,
+    #174044 60%,
+    #0E2A2D 100%
+  );
+}
+
 
